@@ -4,7 +4,9 @@ import "./styles/app.scss";
 //컴포넌트 추가
 import Player from "./components/Player";
 import Song from "./components/Song";
+import Library from "./components/Library";
 import data from "./util";
+
 function App() {
   const [songs, setSongs] = useState(data());
   const [currentSong, setCurrentSong] = useState(songs[0]);
@@ -17,6 +19,7 @@ function App() {
         isPlaying={isPlaying}
         currentSong={currentSong}
       />
+      <Library songs={songs} setCurrentSong={setCurrentSong} />
     </div>
   );
 }
