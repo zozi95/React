@@ -13,7 +13,7 @@ const LibrarySong = ({
     const selectedSong = songs.filter((state) => state.id === id);
     await setCurrentSong(selectedSong[0]);
     const newSongs = songs.map((song) => {
-      if (song.id === id) {
+      if (song.id === setCurrentSong.id) {
         return {
           ...song,
           active: true,
