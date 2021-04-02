@@ -20,28 +20,28 @@ const ServicesSection = () => {
               <img alt="icon" src={clock} />
               <h3>Efficient</h3>
             </div>
-            <p>Lorem ipsum dolor </p>
+            <p>Lorem ipsum dolor sit amet.</p>
           </Card>
           <Card>
             <div className="icon">
               <img alt="icon" src={teamwork} />
               <h3>Teamwork</h3>
             </div>
-            <p>Lorem ipsum dolor </p>
+            <p>Lorem ipsum dolor sit amet. </p>
           </Card>
           <Card>
             <div className="icon">
               <img alt="icon" src={diaphragm} />
               <h3>Diaphragm</h3>
             </div>
-            <p>Lorem ipsum dolor </p>
+            <p>Lorem ipsum dolor sit amet. </p>
           </Card>
           <Card>
             <div className="icon">
               <img alt="icon" src={money} />
               <h3>Affordable</h3>
             </div>
-            <p>Lorem ipsum dolor </p>
+            <p>Lorem ipsum dolor sit amet.</p>
           </Card>
         </Cards>
       </Description>
